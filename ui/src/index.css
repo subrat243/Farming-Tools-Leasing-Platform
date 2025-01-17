@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+  color: white;
+}
+
+.neon-button {
+  position: relative;
+  overflow: hidden;
+  background: #ff1f71;
+  transition: all 0.3s ease;
+}
+
+.neon-button:hover {
+  box-shadow: 0 0 10px #ff1f71,
+              0 0 20px #ff1f71,
+              0 0 40px #ff1f71;
+  transform: translateY(-2px);
+}
